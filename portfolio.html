@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Ultimate Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+<style>
+   a{
+    text-decoration: none;
+    color:rgb(255, 149, 0)
+   }
+</style>
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Sticky header using position: sticky in CSS -->
+  <header style="display: flex; align-items: center; justify-content: space-between; background-color: #f4f4f4; padding: 20px 40px; font-family: Arial, sans-serif;">
+  <!-- Logo or Initials -->
+  <div>
+    <h1 style="color: #f57b00;">hello everyone!</h1>
+   <a target="_blank" href="https://github.com/manipinnaka1125"> <img style="width: 35px;padding-left: 30px;margin-top: 0px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5YUzMXDU661vR-_gfzN2j6YdBLoGlAJeVRA&s"/></a>
+  </div>
+
+  <!-- Welcome Text -->
+  <div>
+    <h1 style="margin: 0; font-size: 24px;">🌟 Welcome to my portfolio</h1>
+    <h2 style="margin: 0; color: #f57b00;">I'm Mani Swaroop Pinnaka</h2>
+    <p style="margin: 5px 0; font-style: italic; color: #555;">Full Stack Developer | Java & MERN</p>
+  </div>
+
+  <!-- GitHub & Social -->
+  <div style="text-align: right;">
+    <a href="https://github.com/manipinnaka1125" target="_blank" style="font-size: 24px; text-decoration: none; color: #333;">🐙 GitHub</a><br>
+    <a href="mailto:youremail@example.com" style="font-size: 20px; text-decoration: none; color: #555;">📧 Email</a>
+  </div>
+</header>
+
+
+
+  <nav>
+   <div style="background-color: rgb(0, 0, 0);display: flex;">
+     
+  <a  href="#aboutme">About Me</a>
+   <a href="#projects">Projects</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a target="_blank" href="newpage.html">New Page</a>
+  
+   
+</div>
+  </nav>
+
+  <main style="background-color: antiquewhite;">
+    <!-- About section with figure and figcaption -->
+    <section id="about">
+      <h2>About Me</h2>
+      <figure>
+        <img src="images/profile.jpg" alt="Profile picture of me" />
+        <figcaption>This is my face when I finally fix a CSS bug.</figcaption>
+      </figure>
+      <p>I use <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, and <span class="highlight">Google-fu</span> to create magical things on the internet.</p>
+      <hr />
+    </section>
+
+    <!-- Projects using flexbox layout inside divs -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Landing Page</h3>
+          <p>A stylish homepage for a fake product. I used Flexbox and learned <em>never to nest divs endlessly</em>.</p>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>This project used an API and taught me the difference between <strong>weather</strong> and <strong>whether</strong>.</p>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <!-- Details/summary tags for FAQs -->
+    <section id="faq">
+     <h2>FAQS</h2>
+  <details>
+    <summary>what is your favourite language </summary>
+    <p>my fav is c++</p>
+  </details>
+        
+     </summary>
+    </section>
+
+<section id="aboutme">
+<h1>this is all about me</h1>
+<p>i am not an enjoyable person who is alone and do some coding</p>
+
+</section>
+    <!-- Iframe example for embedded YouTube video -->
+    <section>
+      <h2>Check Out My YouTube Tutorial</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube video" frameborder="0" allowfullscreen></iframe>
+      <hr />
+    
+    <!-- Contact form using all proper form fields -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" required /><br/>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" required /><br/>
+
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message"></textarea><br/>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+<div style="background-color:rgb(242, 242, 242);margin: 10px; padding:40px;align-items: center;display: flex;">
+<div style="padding-right:20px;">photo of w3schools:
+</div>
+<div><img src="data:image/png;base64,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"/></div>
+</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 <span class="highlight">Your Name</span>. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

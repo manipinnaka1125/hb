@@ -1,0 +1,90 @@
+/* CSS Variables */
+:root {
+  --main-color: #ff6f61;
+  --dark-bg: #333;
+  --light-bg: #f4f4f4;
+  --highlight: gold;
+}
+
+/* Reset base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-bg);
+  line-height: 1.6;
+}
+
+/* Highlighted text */
+.highlight {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+/* Sticky header */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: var(--dark-bg);
+  color: white;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+/* Navigation styles */
+
+
+
+a{
+    padding: 20px;
+    color: white;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* Projects layout using Flexbox */
+.project-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Forms and buttons */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  background: var(--dark-bg);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive iframe */
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: var(--dark-bg);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
